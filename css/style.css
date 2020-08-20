@@ -2553,6 +2553,12 @@ a{
   border-radius: 100%;
   background-color: #ffc700;;
 }
+.nl-col-1__list .nl-col-1__item .nl-item-down-part .nl-ico.active{
+  background-color: #20BA14;
+}
+.nl-col-1__list .nl-col-1__item .nl-item-down-part .nl-ico.active i{
+  color: #fff;
+}
 .nl-item-down-part .nl-ico i{
   font-size: 27px;
   color: #5c5c5c;
