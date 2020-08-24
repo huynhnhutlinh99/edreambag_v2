@@ -111,7 +111,7 @@ ul li{
 .nl-row{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
 }
 .nl-row-p1{
     margin: 29px 0;
@@ -2635,9 +2635,9 @@ a{
   padding-left: 0;
 }
 
-.nl-row-mypage-2 .nl-col-2 .nl-part-2{
+/* .nl-row-mypage-2 .nl-col-2 .nl-part-2{
   margin-top: 52px;
-}
+} */
 .nl-row-mypage-2 .nl-part-2 .nl-line-1{
   display: flex;
   align-items: center;
@@ -2646,6 +2646,8 @@ a{
   font-size: 20px;
   font-weight: 800;
   padding-right: 16px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .nl-part-2 .nl-line-1-div-picker{
   position: relative;
@@ -2831,6 +2833,12 @@ button, select{
   font-weight: 800;
   margin-bottom: 27px;
 }
+.nl-type-4 .nl-ctn .nl-head-line img{
+  height: 27px;
+}
+.nl-type-4 .nl-ctn .nl-head-line .nl-title{
+  padding-left: 10px;
+}
 .nl-type-4 .nl-ctn .nl-ul-list .nl-li-item{
   font-size: 16px;
   font-weight: 600;
@@ -2862,6 +2870,10 @@ button, select{
   font-weight: 800;
   text-align: center;
   opacity: .4;
+}
+.nl-type-5 .nl-box .nl-text img{
+  position: relative;
+  bottom: -3px;
 }
 .nl-type-5 .nl-box input:checked~.nl-text{
   opacity: 1;
@@ -3094,24 +3106,26 @@ button, select{
 .nl-type-4.nl-copy {
   width: 340px;
 }
-.nl-type-4.nl-copy  .nl-ctn .nl-head-line{
+.nl-type-4.nl-copy  .nl-ctn .nl-head-line {
   height: auto;
   display: flex;
   align-items: flex-start;
+  margin-top: 3px;
 }
-.nl-type-4.nl-copy  .nl-ctn .nl-head-line img{
+.nl-type-4.nl-copy  .nl-ctn .nl-head-line img {
   display: inline-block;
   height: 26px;
-  margin-right: 10px;
-  padding-bottom: 3px;
+  margin-right: 0;
+  position: relative;
+  bottom: 3px;
 }
-.nl-type-4.nl-copy .nl-text-center{
+.nl-type-4.nl-copy .nl-text-center {
   font-weight: 800;
 }
 .nl-text-center{
   text-align: center;
 }
-.nl-type-4.nl-copy .nl-group-btn{
+.nl-type-4.nl-copy .nl-group-btn {
   margin-top: 18px;
 }
 .nl-type-4.nl-copy .nl-group-btn {
@@ -3374,10 +3388,10 @@ button, select{
   align-items: center;
 }
 .nl-tbl-list-19 li .nl-col-1{
-  width: 27%;
+  width: 25%;
 }
 .nl-tbl-list-19 li .nl-col-2{
-  width: 33%;
+  width: 35%;
 }
 .nl-tbl-list-19 li .nl-col-3{
   width: 40%;
@@ -3423,4 +3437,15 @@ button, select{
   top: 50%;
   transform: translateY(-50%);
   left: 0;
+}
+.nl-test::before{
+  position: relative;
+  content: "";
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+.nl-mg-t-10{
+  margin-top: 10px;
 }
