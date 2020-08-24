@@ -3449,3 +3449,23 @@ button, select{
 .nl-mg-t-10{
   margin-top: 10px;
 }
+.nl-row-mypage-2 .nl-col-2 .nl-col-1__list {
+  display: none;
+}
+/* @media only screen and (min-width: 320px){
+  @media only screen and (max-width: 975px){
+    .nl-row-mypage-2>.nl-col-1{
+      display: none;
+    }
+    .nl-row-mypage-2 .nl-col-2{
+      width: 100%;
+      padding-right: 0;
+    }
+    .nl-col-1__list .nl-col-1__item{
+      margin-bottom: 10px;
+    }
+    .nl-row-mypage-2 .nl-col-2 .nl-col-1__list {
+      display: block;
+    }
+  }
+} */
