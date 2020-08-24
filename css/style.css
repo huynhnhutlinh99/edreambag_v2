@@ -3453,6 +3453,16 @@ button, select{
 .nl-row-mypage-2 .nl-col-2 .nl-col-1__list {
   display: none;
 }
+.nl-tbl-17 .nl-text-left .nl-part-1-btn-blue{
+  margin: 10px 0 0;
+}
+.nl-content-hide{
+  /* display: none; */
+  padding: 0 10px;
+}
+.nl-row-mypage-3.nl-row-mypage-2.nl-row-mypage-2__mobile{
+  display: none;
+}
 @media only screen and (min-width: 320px){
   @media only screen and (max-width: 975px){
     .nl-row-mypage-2__mobile .nl-col-1__list{
@@ -3567,13 +3577,18 @@ button, select{
     .nl-tbl-list-19 .nl-li-item .nl-col-2{
       padding: 0 0 0 10px;
     }
+
     .nl-tbl-17 .nl-frm .nl-ip{
       width: calc(100% - 92px);
       margin-right: 12px;
     }
+    .nl-row-mypage-3.nl-row-mypage-2{
+      display: none;
+    }
+    .nl-row-mypage-3.nl-row-mypage-2.nl-row-mypage-2__mobile{
+      display: flex;
+    }
 
   }
 }
-.nl-tbl-17 .nl-text-left .nl-part-1-btn-blue{
-  margin: 10px 0 0;
-}
+
