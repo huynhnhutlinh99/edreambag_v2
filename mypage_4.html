@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/e9ddabe444.js" crossorigin="anonymous"></script>
     <script src="./js/jquery-3.2.1.min.js"></script>
     <script src="./js/common.js"></script>
+    <script>(function(e,t,n){var r=e.querySelectorAll("html")[0];r.className=r.className.replace(/(^|\s)no-js(\s|$)/,"$1js$2")})(document,window,0);</script>
 </head>
 <body>
     <div class="nl-container">
@@ -838,58 +839,80 @@
                             </div>
                         </div>
                         <div class="nl-tbl-17 nl-margin-tbl">
-                            <h3 class="nl-title-name">입력하신입력하신</h3>
-                            <div class="nl-ctn-border">
-                                <div class="nl-line-1">
-                                    <h4 class="nl-title-item">입력하신입력하신입력하신.</h4>
-                                    <button type="button" class="nl-btn-line-4-grey"> 
-                                        <span class="nl-opc-5">입력하신입력하신입력하신</span>
-                                    </button>
-                                    <div class="nl-text-right">
-                                        <div class="nl-part-1-btn-blue">
-                                            입력하신
-                                        </div>
-                                    </div>
-                                    
-                                    <h4 class="nl-title-item nl-mg-t-30">입력하신입력하신입력하신.</h4>
-                                    <button type="button" class="nl-btn-line-4-grey">
-                                        <span class="nl-opc-5">입력하신입력하신입력하신</span>
-                                    </button>
-                                    <div class="nl-text-right">
-                                        <div class="nl-part-1-btn-blue">
-                                            입력하신
-                                        </div>
-                                    </div>
-                                    <div class="nl-text-border-bt nl-mg-t-30">
-                                        입력하
-                                    </div>
-                                    <div class="nl-1-nui-part nl-fs-14">
-                                        입력하신입력
-                                        <input type="text" class="nl-ip nl-ip-date" placeholder="YYYY/MM/DD">
-                                        입
-                                        <div class="nl-custom-arow">
-                                            <select name="" id="">
-                                                <option value="">입력하신입입</option>
-                                            </select>
-                                        </div>
-                                        입력/<span class="opc-2">입력입</span> (입)입입입
-                                        <input type="text" class="nl-ip nl-ip-date" placeholder="YYYY/MM/DD">
-                                        입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신.<br>
-                                        입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신.
-                                        <div class="nl-group-btn nl-row">
-                                            <div class="nl-btn-grey">
-                                                입력하신
+                            <form method="post" action="" enctype="multipart/form-data">
+                                <h3 class="nl-title-name">입력하신입력하신</h3>
+                                <div class="nl-ctn-border">
+                                    <div class="nl-line-1">
+                                        <h4 class="nl-title-item">입력하신입력하신입력하신.</h4>
+                                        <!-- <button type="button" class="nl-btn-line-4-grey"> 
+                                            <span class="nl-opc-5">입력하신입력하신입력하신</span>
+                                        </button> -->
+                                        <div class="box">
+                                            <div class="box__input">
+                                              <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+                                              <label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+                                              <button class="box__button" type="submit">Upload</button>
                                             </div>
+                                            <div class="box__uploading">Uploading…</div>
+                                            <div class="box__success">Done!</div>
+                                            <div class="box__error">Error! <span></span>.</div>
+                                        </div>
+                                        <div class="nl-text-right">
                                             <div class="nl-part-1-btn-blue">
                                                 입력하신
                                             </div>
                                         </div>
-                                        <ul class="nl-ul-col-1-p3 nl-ul-part-1-mp2 nl-mg-t-30">
-                                            <li>입력하신 주소로 박스를 배송해 드립니다.</li>
-                                        </ul>
+                                        
+                                        <h4 class="nl-title-item nl-mg-t-30">입력하신입력하신입력하신.</h4>
+                                        <!-- <button type="button" class="nl-btn-line-4-grey">
+                                            <span class="nl-opc-5">입력하신입력하신입력하신</span>
+                                        </button> -->
+                                        <div class="box" >
+                                            <div class="box__input">
+                                              <input class="box__file" type="file" name="files2[]" id="file_2" data-multiple-caption="{count} files selected" multiple />
+                                              <label for="file_2"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+                                              <button class="box__button" type="submit">Upload</button>
+                                            </div>
+                                            <div class="box__uploading">Uploading…</div>
+                                            <div class="box__success">Done!</div>
+                                            <div class="box__error">Error! <span></span>.</div>
+                                        </div>
+                                        <div class="nl-text-right">
+                                            <div class="nl-part-1-btn-blue">
+                                                입력하신
+                                            </div>
+                                        </div>
+                                        <div class="nl-text-border-bt nl-mg-t-30">
+                                            입력하
+                                        </div>
+                                        <div class="nl-1-nui-part nl-fs-14">
+                                            입력하신입력
+                                            <input type="text" class="nl-ip nl-ip-date" placeholder="YYYY/MM/DD">
+                                            입
+                                            <div class="nl-custom-arow">
+                                                <select name="" id="">
+                                                    <option value="">입력하신입입</option>
+                                                </select>
+                                            </div>
+                                            입력/<span class="opc-2">입력입</span> (입)입입입
+                                            <input type="text" class="nl-ip nl-ip-date" placeholder="YYYY/MM/DD">
+                                            입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신.<br>
+                                            입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신입력하신.
+                                            <div class="nl-group-btn nl-row">
+                                                <div class="nl-btn-grey">
+                                                    입력하신
+                                                </div>
+                                                <div class="nl-part-1-btn-blue">
+                                                    입력하신
+                                                </div>
+                                            </div>
+                                            <ul class="nl-ul-col-1-p3 nl-ul-part-1-mp2 nl-mg-t-30">
+                                                <li>입력하신 주소로 박스를 배송해 드립니다.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                         <div class="nl-type-18 nl-margin-tbl">
                             <h4 class="nl-title-name color-red">입력하신 입력하신</h4>
@@ -1423,6 +1446,7 @@
                                         <div class="nl-line-4">
                                             <h4 class="nl-title-item">2.입력하신입력하신입력하신.</h4>
                                             <button type="button" class="nl-btn-line-4-grey"><span class="nl-opc-5">입력하신입력하신입력하신</span></button>
+                                            
                                             <div class="nl-part-1-btn-blue">
                                                 입력하신
                                             </div>

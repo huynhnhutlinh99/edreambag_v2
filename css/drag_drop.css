@@ -39,8 +39,8 @@ input[type = "file"]{
     display: block;
 }
 .box__button {
-display: none;
+    display: none;
 }
 .no-js .box__button {
-display: block;
+    display: block;
 }
